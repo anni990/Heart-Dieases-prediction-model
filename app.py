@@ -19,7 +19,7 @@ def predict_from_user_input(model_pipeline, user_input_df):
     return predicted_outcome
 
 # Path to the model pipeline
-model_path = 'D:/project/ML Models/model/model/Cardivascular_disease_best_model.pkl'  # Ensure this path matches your actual model file
+model_path = 'Cardivascular_disease_best_model.pkl'  # Ensure this path matches your actual model file
 model_pipeline = load_model_pipeline(model_path)
 
 # Function to collect user inputs
